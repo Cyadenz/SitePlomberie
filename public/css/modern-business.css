@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#page {
+  min-height:100vh; /* 1 */
+  display:flex; /* 2 */
+  flex-direction:column; /* 3 */
+}
+
+#content {
+  flex-grow:1; /* 4 */
+}
+
+.img {
+  max-width: 7%;
+  height: auto;
+        filter: brightness(98%);
+        -webkit-filter: brightness(98%);
+        -moz-filter: brightness(98%);
+        -o-filter: brightness(98%);
+        -ms-filter: brightness(98%);
+}
+.Etirement
+{
+  margin-left: 1000px;
+  /*width:0px;*/
+  height:1250px;
+/*  background:#FEFEFE;
+  border: 2px solid blue;*/
+/*  border: 3px solid red;*/
+}
+
+.Rectangle
+{
+   position: absolute;
+    right: 1.4%;
+    left: 54.2%;
+    top: 9.250%;
+
+  background:#FEFEFE;
+  background-color: rgba(255, 255, 255, 0.85);
+/*  border: 2px solid blue;*/
+}
+.BackgroundSDB 
+{
+    background: url("/img/SalleDeBain.jpg");
+    background-position : 25% 50%;
+}
+
+.liens
+{
+    font-size: 0.85em;
+}
+
+#map 
+{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.italiquePetit
+{
+  font-style: italic;
+  font-size:75%;
+}
+
+img.resize {
+  width:100%;
+  height:100%;
+}
+
+img.devis {
+  width:15%;
+  height:15%;
+  float: right;
+}
+
+
