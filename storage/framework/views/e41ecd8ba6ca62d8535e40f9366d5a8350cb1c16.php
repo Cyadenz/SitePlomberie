@@ -28,7 +28,7 @@
 	        <p>
 	          <h5>&nbsp;&nbsp;Géneraux</h5>
 	          <ul style="list-style-type:disc">
-		          <li>Etudes et conseils personnalisés</li>
+		          <li>Études et conseils personnalisés</li>
 				  <li>Agréé Assurances</li>
 				  <li>Devis Gratuit</li>
 				  <li>Tarifs Règlementés</li>

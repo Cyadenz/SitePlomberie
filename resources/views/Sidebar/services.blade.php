@@ -79,7 +79,7 @@
 
 			Demandez immédiatement un devis pour vos futurs travaux !<br/><br/>
 
-			Nos devis sont GRATUITS<br/>
+			Nos devis sont GRATUITS.<br/>
 		</p>
 
 		<h5><i class="fa fa-chevron-right mt-3"></i> Entretien</h5>

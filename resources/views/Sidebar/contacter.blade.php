@@ -115,7 +115,7 @@
                 <div class="{{ $errors->has('telephone') ? ' has-error' : '' }}">
                 <input type="telephone" class="form-control input-md" id="telephone" name="telephone" required
                 @if(Auth::user()) 
-                  value="0{{$user[Auth::id() - 1]->tel}}"
+                  value="{{$user[Auth::id() - 1]->tel}}"
                 @else 
                   placeholder="Veuillez saisir votre numéro de téléphone"
                 @endif >

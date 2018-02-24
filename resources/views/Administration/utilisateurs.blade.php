@@ -4,7 +4,7 @@
 @section('content')
 	<ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Utilisateurs</a>
+          <a href="/adminUtilisateurs">Utilisateurs</a>
         </li>
         <li class="breadcrumb-item active">Gestion des Utilisateurs</li>
       </ol>
@@ -50,7 +50,7 @@
                   <td>{{$util->name}}</td>
                   <td>{{$util->prenom}}</td>
                   <td>{{$util->email}}</td>
-                  <td>0{{$util->tel}}</td>
+                  <td>{{$util->tel}}</td>
                   @if($util->admin)
                   <td>Oui</td>
                   @else

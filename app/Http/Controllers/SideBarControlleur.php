@@ -59,11 +59,11 @@ class SideBarControlleur extends Controller
             'nom' => 'required|alpha|max:255',
             'prenom' => 'required|alpha|max:100',
             'email' => 'required|string|email|max:255|unique:devis,email',
-            'tel' => 'required|numeric|digits:10',
+            'tel' => 'required|numeric|phone', 
 
-            'adresse' => 'required|string|max:255',
+            'adresse' => 'required|max:255',
             'cp' => 'required|numeric|digits:5',
-            'ville' => 'required|alpha|max:255',
+            'ville' => 'required|regex:/^[\pL\s\-]+$/u|max:255',
 
             'installation' => 'boolean',
             'entretien' => 'boolean',
@@ -99,7 +99,7 @@ class SideBarControlleur extends Controller
             $this->validate($request, [
             'nom' => 'required|alpha|max:255',
             'email' => 'required|string|email|max:255|unique:contact,email',
-            'telephone' => 'required|numeric|digits:10',
+            'telephone' => 'required|numeric|phone', 
 
             'objet' => 'required|string|max:255',
             'message' => 'required|string|max:2000',

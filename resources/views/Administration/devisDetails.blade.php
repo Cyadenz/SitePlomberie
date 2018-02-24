@@ -3,9 +3,9 @@
 @section('content')
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Utilisateurs</a>
+          <a href="/devis/{{$devis->id}}">Devis</a>
         </li>
-        <li class="breadcrumb-item active">Gestion des Utilisateurs</li>
+        <li class="breadcrumb-item active">Gestion des devis</li>
       </ol>
 
       <div class="ml-2">
@@ -48,7 +48,7 @@
       <div class="form-group">
         <label class="col-md-4 control-label" for="tel">Téléphone :</label>  
         <div class="col-md-12">
-        <input id="tel" name="tel" placeholder="0{{$devis->tel}}" class="form-control input-md" type="text" disabled="disabled">
+        <input id="tel" name="tel" placeholder="{{$devis->tel}}" class="form-control input-md" type="text" disabled="disabled">
                   
         </div>
       </div>

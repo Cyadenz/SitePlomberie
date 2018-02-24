@@ -45,7 +45,7 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4">AG2 Plomberie - Renovation, La solution pour tous vos travaux</h1><br/>
+      <h1 class="my-4">AG2 Plomberie - Rénovation, La solution pour tous vos travaux</h1><br/>
 <hr>
 <!--       <div class="row">
         <div class="col-lg-4 mb-4">
@@ -89,7 +89,7 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="{{ asset('img/robinet.jpg') }}" alt=""></a>
+            <a><img class="card-img-top" src="{{ asset('img/robinet.jpg') }}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <h4>Plomberie</h4>
@@ -100,7 +100,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="{{ asset('img/chauffage-sol.jpg') }}" alt=""></a>
+            <a><img class="card-img-top" src="{{ asset('img/chauffage-sol.jpg') }}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <h4>Chaufferie & Climatisation</h4>
@@ -111,7 +111,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="{{ asset('img/peinture.jpg') }}" alt=""></a>
+            <a><img class="card-img-top" src="{{ asset('img/peinture.jpg') }}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <h4>Peinture</h4>
@@ -122,7 +122,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="{{ asset('img/elec.jpeg') }}" alt=""></a>
+            <a><img class="card-img-top" src="{{ asset('img/elec.jpeg') }}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                <h4>Electricité</h4>
@@ -133,7 +133,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="{{ asset('img/sallebain.jpeg') }}" alt=""></a>
+            <a><img class="card-img-top" src="{{ asset('img/sallebain.jpeg') }}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <h4>Création de salle de bain</h4>

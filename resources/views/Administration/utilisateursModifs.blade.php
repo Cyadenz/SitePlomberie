@@ -4,7 +4,7 @@
 @section('content')
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Utilisateurs</a>
+          <a href="/profilEdit/{{$user->id}}">Utilisateur</a>
         </li>
         <li class="breadcrumb-item active">Gestion des Utilisateurs</li>
       </ol>
@@ -123,7 +123,7 @@
               <div class="col-md-6{{ $errors->has('tel') ? ' has-error' : '' }}">
                 <label for="tel" class="control-label">Téléphone</label>
 
-                    <input id="tel" type="tel" class="form-control" name="tel" value="0{{$user->tel}}" required>
+                    <input id="tel" type="tel" class="form-control" name="tel" value="{{$user->tel}}" required>
                     @if ($errors->has('tel'))
                         <span class="help-block">
                             <strong>{{ $errors->first('tel') }}</strong>

@@ -42,12 +42,12 @@ class UserControlleur extends Controller
             'name' => 'required|string|max:255',
             'prenom' => 'required|string|max:100',
             'email' => 'required|string|email|max:255',
-            'tel' => 'required|numeric',
+            'tel' => 'required|numeric|phone',
             'password' => 'required|string|min:6|confirmed',
 
-            'adresse' => 'string|max:255',
+            'adresse' => 'max:255',
             'cp' => 'numeric|max:99999',
-            'ville' => 'string|max:255',
+            'ville' => 'regex:/^[\pL\s\-]+$/u|max:255',
         ]);
         $user = User::findorFail($id);
         $user -> update([

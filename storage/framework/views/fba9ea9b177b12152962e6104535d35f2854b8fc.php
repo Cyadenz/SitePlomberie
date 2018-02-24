@@ -135,7 +135,7 @@
               <div class="col-md-6<?php echo e($errors->has('tel') ? ' has-error' : ''); ?>">
                 <label for="tel" class="control-label">Téléphone</label>
 
-                    <input id="tel" type="tel" class="form-control" name="tel" value="0<?php echo e(Auth::user()->tel); ?>" required>
+                    <input id="tel" type="tel" class="form-control" name="tel" value="<?php echo e(Auth::user()->tel); ?>" required>
                     <?php if($errors->has('tel')): ?>
                         <span class="help-block">
                             <strong><?php echo e($errors->first('tel')); ?></strong>

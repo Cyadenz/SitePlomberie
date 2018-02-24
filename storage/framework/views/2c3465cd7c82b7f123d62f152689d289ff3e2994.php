@@ -2,7 +2,7 @@
 
 	<ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Devis</a>
+          <a href="/adminDevis">Devis</a>
         </li>
         <li class="breadcrumb-item active">Gestion des devis</li>
       </ol>

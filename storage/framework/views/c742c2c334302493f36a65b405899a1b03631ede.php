@@ -81,7 +81,7 @@ Administration
               <a href="/adminContact">Demandes</a>
             </li>
             <li>
-              <a href="blank.html">Informations diverses</a>
+              <a href="/adminDashboard">Informations diverses</a>
             </li>
           </ul>
         </li>
@@ -95,7 +95,7 @@ Administration
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
+<!--         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-fw fa-envelope"></i>
             <span class="d-lg-none">Messages
@@ -128,12 +128,11 @@ Administration
               <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
             </a>
-            
             <div class="dropdown-divider"></div>
             <a class="dropdown-item small" href="#">View all messages</a>
           </div>
-        </li>
-
+        </li> -->
+<!-- 
         <li class="nav-item">
           <form class="form-inline my-2 my-lg-0 mr-lg-2">
             <div class="input-group">
@@ -145,7 +144,7 @@ Administration
               </span>
             </div>
           </form>
-        </li>
+        </li> -->
 
                <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -157,7 +156,7 @@ Administration
               <?php else: ?>
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
-                    <?php echo e(Auth::user()->name); ?> <?php echo e(Auth::user()->prenom); ?> <span class="caret"></span>
+                    Administrateur <?php echo e(Auth::user()->name); ?> <?php echo e(Auth::user()->prenom); ?> <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                     <li>
@@ -197,7 +196,7 @@ Administration
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Dashboard</a>
+          <a href="/adminDashboard">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Mon Dashboard</li>
       </ol>
@@ -241,7 +240,7 @@ Administration
               </div>
               <div class="mr-5">Information(s) diverses</div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="#">
+            <a class="card-footer text-white clearfix small z-1" href="/adminDashboard">
               <span class="float-left">Voir les détails</span>
               <span class="float-right">
               </span>

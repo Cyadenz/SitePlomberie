@@ -94,7 +94,7 @@
               <div class="<?php echo e($errors->has('tel') ? ' has-error' : ''); ?>">
               <input id="tel" name="tel" class="form-control input-md" type="text" required
               <?php if(Auth::user()): ?> 
-                value="0<?php echo e($user[Auth::id() - 1]->tel); ?>"
+                value="<?php echo e($user[Auth::id() - 1]->tel); ?>"
               <?php else: ?> 
                 placeholder="Veuillez saisir votre numéro de téléphone"
               <?php endif; ?>>

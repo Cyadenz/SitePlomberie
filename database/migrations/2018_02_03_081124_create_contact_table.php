@@ -17,7 +17,7 @@ class CreateContactTable extends Migration
             $table->increments('id');
             $table->string('nom');
             $table->string('email')->unique();
-            $table->Integer('telephone');
+            $table->string('telephone');
 
             $table->string('objet');
             $table->longText('message');

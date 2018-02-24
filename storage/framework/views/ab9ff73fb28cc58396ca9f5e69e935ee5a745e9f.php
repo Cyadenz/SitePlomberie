@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
 	<ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Utilisateurs</a>
+          <a href="/adminUtilisateurs">Utilisateurs</a>
         </li>
         <li class="breadcrumb-item active">Gestion des Utilisateurs</li>
       </ol>
@@ -47,7 +47,7 @@
                   <td><?php echo e($util->name); ?></td>
                   <td><?php echo e($util->prenom); ?></td>
                   <td><?php echo e($util->email); ?></td>
-                  <td>0<?php echo e($util->tel); ?></td>
+                  <td><?php echo e($util->tel); ?></td>
                   <?php if($util->admin): ?>
                   <td>Oui</td>
                   <?php else: ?>
